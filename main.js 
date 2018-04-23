@@ -1,0 +1,60 @@
+ $(document).ready(function () {
+
+$('#readmore').click(SlideDown);
+
+function SlideDown() {
+  $('#readmore').hide();
+  $('#readless').show();
+
+}
+
+$('#readless').click(SlideUp);
+function SlideUp() {
+  $('#readmore').show(showThem);
+  $('#readless').hide(hideThem);
+}
+
+$('#learnmore').click(hideThem);
+
+$('#readmore a').click(function() {
+event.preventDefault();
+}
+
+$('#readless a').click(function() {
+event.preventDefault();
+
+}
+
+$('#learnmore').click() {
+event.preventDefault();
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
